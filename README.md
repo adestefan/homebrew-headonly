@@ -15,6 +15,19 @@ You can also install via URL:
 brew install https://raw.github.com/Homebrew/homebrew-headonly/master/<formula>.rb
 ```
 
+Why is "head-only" bad?
+-----------------------
+
+There are a few problems with head-only software:
+
+* Since there's no stable release, the software is liable to change at any moment. We can't guarantee that head-only software will build reliably or be compatible with other software which builds against it, and that increases our support burden.
+* Homebrew's version-management and upgrade mechanics don't work with head-only software.
+
+What can I do to get this back in Homebrew core?
+------------------------------------------------
+
+Contact the software's developer and ask them to tag a stable release. If the software has a stable release and works reliably, feel free to submit a pull request at the main Homebrew repository.
+
 Docs
 ----
 `brew help`, `man brew`, or the Homebrew [wiki][].
