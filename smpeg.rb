@@ -2,7 +2,11 @@ require 'formula'
 
 class Smpeg < Formula
   homepage 'http://icculus.org/smpeg/'
-  head 'svn://svn.icculus.org/smpeg/trunk'
+  # current HEAD only works with SDL 2, which has no stable release
+  # This is all really a mess and why we removed it from core!
+  # When SDL 2 comes out, move this back to HEAD
+  # Or, if the author tags a stable release, use that
+  head 'svn://svn.icculus.org/smpeg/trunk', :revision => '398'
 
   depends_on :automake
   depends_on :libtool
