@@ -2,7 +2,7 @@ require 'formula'
 
 class Tcpstat < Formula
   head 'https://github.com/jtt/tcpstat.git'
-  homepage 'http://github.com/jtt/tcpstat'
+  homepage 'https://github.com/jtt/tcpstat'
 
   def install
     system "make"
