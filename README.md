@@ -1,9 +1,9 @@
-Homebrew-headonly
+Homebrew
 =================
 These formulae are only available in head-only versions, and have no
 stable tarballs.
 
-How do I install these formulae?
+ formulae installation ?
 --------------------------------
 Just `brew tap homebrew/headonly` and then `brew install <formula>`.
 
